@@ -1,0 +1,83 @@
+Name = rossy;
+Version = 0.1;
+KLL = 0.3c;
+# Layer 0: Base keyboard layout
+
+# Defines
+usbProtocol = 0;     # 6KRO mode
+keyboardLocale = 33; # US keyboard layout
+
+U"Esc"       : U"Esc";
+U"1"         : U"1";
+U"2"         : U"2";
+U"3"         : U"3";
+U"4"         : U"4";
+U"5"         : U"5";
+U"6"         : U"6";
+U"7"         : U"7";
+U"8"         : U"8";
+U"9"         : U"9";
+U"0"         : U"0";
+U"Minus"     : U"Minus";
+U"Equal"     : U"Equal";
+U"Hash"      : U"Backspace";
+U"Backspace" : U"Pause";
+
+U"Tab"       : U"Tab";
+U"Q"         : U"Q";
+U"W"         : U"W";
+U"E"         : U"E";
+U"R"         : U"R";
+U"T"         : U"T";
+U"Y"         : U"Y";
+U"U"         : U"U";
+U"I"         : U"I";
+U"O"         : U"O";
+U"P"         : U"P";
+U"LBrace"    : U"LBrace";
+U"RBrace"    : U"RBrace";
+U"Backslash" : U"Backslash";
+
+U"CapsLock"  : layerShift(4); # Shift to Fn layer (rossy-layer4.kll)
+U"A"         : U"A";
+U"S"         : U"S";
+U"D"         : U"D";
+U"F"         : U"F";
+U"G"         : U"G";
+U"H"         : U"H";
+U"J"         : U"J";
+U"K"         : U"K";
+U"L"         : U"L";
+U"Semicolon" : U"Semicolon";
+U"Quote"     : U"Quote";
+U"Enter"     : U"Enter";
+
+U"LShift"    : U"LShift" + layerShift(1); # Shift to Shift layer (rossy-layer1.kll)
+U"Z"         : U"Z";
+U"X"         : U"X";
+U"C"         : U"C";
+U"V"         : U"V";
+U"B"         : U"B";
+U"N"         : U"N";
+U"M"         : U"M";
+U"Comma"     : U"Comma";
+U"Period"    : U"Period";
+U"Slash"     : U"Slash";
+U"RShift"    : U"RShift" + layerShift(1); # Shift to Shift layer (rossy-layer1.kll)
+
+U"LCtrl"     : U"LCtrl" + layerShift(2); # Shift to Ctrl layer (rossy-layer2.kll)
+U"Function1" : U"LGUI";
+U"LAlt"      : U"LAlt";
+U"Space"     : U"Space";
+U"RAlt"      : U"RAlt";
+U"LGUI"      : U"RCtrl" + layerShift(2); # Shift to Ctrl layer (rossy-layer2.kll)
+
+U"Backtick"  : U"Insert";
+U"Delete"    : U"Delete";
+U"PageUp"    : layerShift(5); # Shift to command layer (rossy-layer5.kll)
+U"PageDown"  : U"Menu";
+
+U"Up"        : U"Up";
+U"Left"      : U"Left";
+U"Down"      : U"Down";
+U"Right"     : U"Right";

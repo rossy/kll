@@ -1,0 +1,11 @@
+Name = rossy;
+Version = 0.1;
+KLL = 0.3c;
+# Layer 1: Applied when either Shift key is held down
+
+# Handle Shift + Esc as Shift + Backtick (or ~)
+U"Esc"   : U"Backtick";
+
+# Shift to Shift+Ctrl layer (rossy-layer3.kll)
+U"LCtrl" : U"LCtrl" + layerShift(3);
+U"LGUI"  : U"RCtrl" + layerShift(3);

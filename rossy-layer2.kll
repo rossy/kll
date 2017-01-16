@@ -1,0 +1,8 @@
+Name = rossy;
+Version = 0.1;
+KLL = 0.3c;
+# Layer 2: Applied when either Ctrl key is held down
+
+# Shift to Shift+Ctrl layer (rossy-layer3.kll)
+U"LShift" : U"LShift" + layerShift(3);
+U"RShift" : U"RShift" + layerShift(3);

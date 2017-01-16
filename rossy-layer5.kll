@@ -1,0 +1,33 @@
+Name = rossy;
+Version = 0.1;
+KLL = 0.3c;
+# Layer 5: Applied when the second Fn key on the right is held down
+
+U"Esc"       : SYS"Sleep";
+
+# Copies of bindings from layer 4
+U"1"         : U"F1";
+U"2"         : U"F2";
+U"3"         : U"F3";
+U"4"         : U"F4";
+U"5"         : U"F5";
+U"6"         : U"F6";
+U"7"         : U"F7";
+U"8"         : U"F8";
+U"9"         : U"F9";
+U"0"         : U"F10";
+U"Minus"     : U"F11";
+U"Equal"     : U"F12";
+U"Backspace" : U"PrintScreen";
+U"Enter"     : U"PEnter";
+U"Function1" : U"RGUI";
+
+# Media player controls
+U"M"         : CONS"Mute";
+U"Space"     : CONS"PausePlay";
+
+# The arrow keys also become media player controls
+U"Up"        : CONS"VolumeUp";
+U"Left"      : CONS"ScanPreviousTrack";
+U"Down"      : CONS"VolumeDown";
+U"Right"     : CONS"ScanNextTrack";
