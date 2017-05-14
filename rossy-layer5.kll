@@ -1,7 +1,7 @@
 Name = rossy;
 Version = 0.1;
 KLL = 0.3c;
-# Layer 5: Applied when the second Fn key on the right is held down
+# Layer 5: Applied when the triangle key on the right is held down
 
 U"Esc"       : SYS"Sleep";
 

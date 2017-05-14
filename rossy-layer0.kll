@@ -74,8 +74,8 @@ U"LGUI"      : U"RCtrl" + layerShift(2); # Shift to Ctrl layer (rossy-layer2.kll
 
 U"Backtick"  : U"Insert";
 U"Delete"    : U"Delete";
-U"PageUp"    : layerShift(5); # Shift to command layer (rossy-layer5.kll)
-U"PageDown"  : U"Menu";
+U"PageUp"    : layerShift(4); # Shift to Fn layer (rossy-layer4.kll)
+U"PageDown"  : layerShift(5); # Shift to command layer (rossy-layer5.kll)
 
 U"Up"        : U"Up";
 U"Left"      : U"Left";

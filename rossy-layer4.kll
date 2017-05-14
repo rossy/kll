@@ -1,7 +1,7 @@
 Name = rossy;
 Version = 0.1;
 KLL = 0.3c;
-# Layer 4: Applied when the Fn key is held down
+# Layer 4: Applied when the Fn or square key is held down
 
 U"Esc"       : U"Backtick";
 U"1"         : U"F1";
