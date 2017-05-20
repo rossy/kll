@@ -1,6 +1,6 @@
 Name = rossy;
 Version = 0.1;
-KLL = 0.3c;
+KLL = 0.3d;
 # Layer 5: Applied when the triangle key on the right is held down
 
 U"Esc"       : SYS"Sleep";

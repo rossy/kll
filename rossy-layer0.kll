@@ -1,10 +1,9 @@
 Name = rossy;
 Version = 0.1;
-KLL = 0.3c;
+KLL = 0.3d;
 # Layer 0: Base keyboard layout
 
 # Defines
-usbProtocol = 0;     # 6KRO mode
 keyboardLocale = 33; # US keyboard layout
 
 U"Esc"       : U"Esc";

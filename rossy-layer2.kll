@@ -1,6 +1,6 @@
 Name = rossy;
 Version = 0.1;
-KLL = 0.3c;
+KLL = 0.3d;
 # Layer 2: Applied when either Ctrl key is held down
 
 # Shift to Shift+Ctrl layer (rossy-layer3.kll)

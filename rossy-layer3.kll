@@ -1,6 +1,6 @@
 Name = rossy;
 Version = 0.1;
-KLL = 0.3c;
+KLL = 0.3d;
 # Layer 3: Applied when either Shift key and either Ctrl key is held down
 
 # Handle Ctrl + Shift + Esc as Ctrl + Shift + Esc (instead of Backtick)
